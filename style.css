@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #121214;
+
+    padding: 7.2rem 10.4rem;
+}
+
+header {
+    margin-bottom: 6.3rem;
+}
+
+header h1 {
+    color: #02799D;
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+header p {
+    color: #E1E1E6;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.card {
+    border-radius: .8rem;
+    border: .2rem solid #323238;
+    background: #202024;
+
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    color: #E1E1E6;
+    font-size: 3.6rem;
+    font-weight: 900;
+    padding: 2.4rem 3.2rem 0rem;
+}
+
+.card p {
+    color: #C4C4CC;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 2.4rem 3.2rem 3.2rem;
+}
+
+:root {
+    font-family: 'Mulish', sans-serif;
+    font-size: 62.5%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.4rem 6rem;
+    place-content: center;
+}
+
